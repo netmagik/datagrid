@@ -30,3 +30,29 @@ h1 {
   margin: 20px;
   white-space:normal !important;
 }
+
+.MuiTypography-root {
+  text-align: center;
+}
+
+.MuiCardMedia-root {
+  text-align: center;
+}
+
+.photo-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.photo-container {
+  padding: 20px;
+  margin: 60px auto;
+  width: 90%;
+}

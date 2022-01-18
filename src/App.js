@@ -4,10 +4,12 @@ import PhotoTable from "./Table/PhotoTable";
 
 function App() {
   return (
+    <>
     <div className="app">
      <DataTable />
-      <PhotoTable />
     </div>
+         <PhotoTable />
+    </>
   );
 }
 

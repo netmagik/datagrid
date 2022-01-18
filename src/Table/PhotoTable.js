@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-
+import CardMedia from '@mui/material/CardMedia';
 
 const PhotoTable = () => {
 
@@ -18,8 +18,22 @@ const PhotoTable = () => {
     console.log(photos);
 
     return (
-        <div>
-            <h1>PhotoTable</h1>
+        <div className='photo-container'>
+        <h1>PhotoTable</h1>
+        <div className='photo-table'>
+            {photos.map(photo => (
+                <Card key={photo.id}>
+                    <CardContent>
+                        <Typography gutterBottom variant="h6" component="div">
+                            {`${photo.id}. ${photo.title}`}
+                        </Typography>
+                        <CardMedia>
+                            <img src={photo.thumbnailUrl} alt={photo.title} />
+                        </CardMedia>
+                    </CardContent>
+                </Card>
+            ))}
+        </div>
         </div>
     );
 };
