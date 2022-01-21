@@ -4,6 +4,7 @@ import DataTable from "./Table/DataTable";
 import PhotoTable from "./Table/PhotoTable";
 import Nav from "./Nav";
 import Home from "./Home";
+import GridDemo from "./Table/GridDemo";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/datatable" element={<DataTable/>} />
         <Route path="/phototable" element={<PhotoTable/>} />
+        <Route path="/griddemo" element={<GridDemo/>} />
         </Routes>
       </Router>
       </div>

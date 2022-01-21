@@ -7,6 +7,7 @@ function Nav() {
             <Link to="/">Home</Link>
             <Link to="/datatable">DataTable</Link>
             <Link to="/phototable">PhotoTable</Link>
+            <Link to="/griddemo">GridDemo</Link>
         </nav>
     );
 };
