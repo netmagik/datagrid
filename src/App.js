@@ -16,7 +16,7 @@ export default function App() {
         <Route path="/datatable" element={<DataTable/>} />
         <Route path="/phototable" element={<PhotoTable/>} />
         <Route path="/griddemo" element={<GridDemo/>} />
-        </Routes>
+      </Routes>
       </Router>
       </div>
   );

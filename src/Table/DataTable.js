@@ -40,7 +40,9 @@ const DataTable = () => {
     return (
         <div style={{height: 500, width: '90%'}}>
             <h1>DataGrid</h1>
-           
+            <p style={{textAlign: 'center', fontSize: '1.4rem', margin: '30px'}}>
+            Example of using <a href="https://mui.com/api/data-grid/data-grid/">React DataGrid</a> with Fake Data from <a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a>
+        </p>
             <DataGrid 
             rows={tableData}
             columns={columns}

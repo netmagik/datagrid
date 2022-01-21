@@ -20,6 +20,9 @@ const PhotoTable = () => {
     return (
         <div className='photo-container'>
         <h1>PhotoTable</h1>
+        <p style={{textAlign: 'center', fontSize: '1.4rem', margin: '30px'}}>
+            Example of using <a href="https://mui.com/api/card/">React Card Component</a> with Fake Data from <a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a>
+        </p>
         <div className='photo-table'>
             {photos.map(photo => (
                 <Card key={photo.id}>

@@ -12,7 +12,10 @@ export default function GridDemo() {
 
     return (
         <div style={{ height: 500, width: '90%'}}>
-            <h1>DataGrid Demo Data</h1>
+            <h1>DataGrid <a href="https://mui.com/api/data-grid/data-grid/">Demo</a></h1>
+            <p style={{textAlign: 'center', fontSize: '1.4rem', margin: '30px'}}>
+            Example of using <a href="https://mui.com/api/data-grid/data-grid/">React DataGrid</a> with Fake Data from <a href="https://www.npmjs.com/package/@material-ui/x-grid-data-generator">X-Grid-Data-Generator</a>
+        </p>
             <DataGrid {...data} />
             </div>
     )
