@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/datagrid/static/css/main.307eed5d.css",
-    "main.js": "/datagrid/static/js/main.1358abbc.js",
+    "main.js": "/datagrid/static/js/main.6b60d40a.js",
     "index.html": "/datagrid/index.html",
     "main.307eed5d.css.map": "/datagrid/static/css/main.307eed5d.css.map",
-    "main.1358abbc.js.map": "/datagrid/static/js/main.1358abbc.js.map"
+    "main.6b60d40a.js.map": "/datagrid/static/js/main.6b60d40a.js.map"
   },
   "entrypoints": [
     "static/css/main.307eed5d.css",
-    "static/js/main.1358abbc.js"
+    "static/js/main.6b60d40a.js"
   ]
 }
