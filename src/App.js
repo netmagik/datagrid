@@ -12,7 +12,7 @@ export default function App() {
     <Router>
     <Nav />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/datatable" element={<DataTable/>} />
         <Route path="/phototable" element={<PhotoTable/>} />
         <Route path="/griddemo" element={<GridDemo/>} />
