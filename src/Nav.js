@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 function Nav() {
     return (
         <nav>
-            <Link to="/">Home</Link>
-            <Link to="/datatable">DataTable</Link>
-            <Link to="/phototable">PhotoTable</Link>
-            <Link to="/griddemo">GridDemo</Link>
+            <Link to="/datagrid">Home</Link>
+            <Link to="/datagrid/datatable">DataTable</Link>
+            <Link to="/datagrid/phototable">PhotoTable</Link>
+            <Link to="/datagrid/griddemo">GridDemo</Link>
         </nav>
     );
 };
