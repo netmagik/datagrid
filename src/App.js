@@ -12,10 +12,10 @@ export default function App() {
     <Router>
     <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/datatable" element={<DataTable/>} />
-        <Route path="/phototable" element={<PhotoTable/>} />
-        <Route path="/griddemo" element={<GridDemo/>} />
+        <Route path="/datagrid" element={<Home />} />
+        <Route path="/datagrid/datatable" element={<DataTable/>} />
+        <Route path="/datagrid/phototable" element={<PhotoTable/>} />
+        <Route path="/datagrid/griddemo" element={<GridDemo/>} />
       </Routes>
       </Router>
       </div>
